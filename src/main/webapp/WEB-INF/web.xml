@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+         <servlet>
+         	<servlet-name>login</servlet-name>
+         	<servlet-class>com.user.LoginServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>login</servlet-name>
+         	<url-pattern>/index</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>signupuser</servlet-name>
+         	<servlet-class>com.user.Signup</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>signupuser</servlet-name>
+         	<url-pattern>/signup</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>updateeuser</servlet-name>
+         	<servlet-class>com.user.UpdateUser</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>updateeuser</servlet-name>
+         	<url-pattern>/updateuser</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>deleteeuser</servlet-name>
+         	<servlet-class>com.user.DeleteUser</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deleteeuser</servlet-name>
+         	<url-pattern>/deleteuser</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>insertmovie</servlet-name>
+         	<servlet-class>com.movie.AddMovies</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>insertmovie</servlet-name>
+         	<url-pattern>/addmovie</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>updateemovie</servlet-name>
+         	<servlet-class>com.movie.UpdateMovie</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>updateemovie</servlet-name>
+         	<url-pattern>/updatemovie</url-pattern>
+         </servlet-mapping>
+         
+           <servlet>
+         	<servlet-name>deleteemovie</servlet-name>
+         	<servlet-class>com.movie.DeleteMovie</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deleteemovie</servlet-name>
+         	<url-pattern>/deletemovie</url-pattern>
+         </servlet-mapping>
+         
+           <servlet>
+         	<servlet-name>deleteepayment</servlet-name>
+         	<servlet-class>com.payment.DeletePayment</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deleteepayment</servlet-name>
+         	<url-pattern>/deletepayment</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>insertpaymentt</servlet-name>
+         	<servlet-class>com.payment.AddPaymentServlet</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>insertpaymentt</servlet-name>
+         	<url-pattern>/addpayment</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>updateepayment</servlet-name>
+         	<servlet-class>com.payment.UpdatePayment</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>updateepayment</servlet-name>
+         	<url-pattern>/updateepayment</url-pattern>
+         </servlet-mapping>
+         
+         
+         <servlet>
+         	<servlet-name>insertfeedback</servlet-name>
+         	<servlet-class>com.feedback.InsertFeedback</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>insertfeedback</servlet-name>
+         	<url-pattern>/feedback</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>updateefeedback</servlet-name>
+         	<servlet-class>com.feedback.UpdateFeedback</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>updateefeedback</servlet-name>
+         	<url-pattern>/updatefeedback</url-pattern>
+         </servlet-mapping>
+         
+           <servlet>
+         	<servlet-name>deleteefeedback</servlet-name>
+         	<servlet-class>com.feedback.DeleteFeedback</servlet-class>
+         </servlet>
+         
+         <servlet-mapping>
+         	<servlet-name>deleteefeedback</servlet-name>
+         	<url-pattern>/deletefeedback</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+         
+</web-app>
